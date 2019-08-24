@@ -1,0 +1,80 @@
+footer {
+  width: 100%;
+  margin-top: 0px;
+  background-color: #f5f6fa;
+  height: 100%;
+  padding-top: 3rem;
+}
+
+footer footer {
+  background: #f5f6fa;
+  padding-top: 50px;
+}
+
+footer div.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1150px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 55px;
+  margin: 0 auto;
+}
+
+footer ul {
+  margin-top: 0px;
+  list-style: none !important;
+  padding: 0;
+}
+
+footer ul li {
+  color: #868E96;
+  font-size: 13px;
+}
+
+footer ul b {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #343a40 !important;
+  -webkit-letter-spacing: 0.4px;
+  -moz-letter-spacing: 0.4px;
+  -ms-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
+}
+
+footer ul a {
+  line-height: 32.5px;
+  text-decoration: none;
+  color: #868E96;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+footer .socialr {
+  margin-bottom: -8px;
+  margin-left: 0px;
+}
+
+footer .socialr.notmobile {
+  display: inline-block;
+}
+
+footer ul li.first {
+  margin-bottom: 20px;
+}
+
+footer ul li a i {
+  padding-right: 5px;
+}
+
+footer .socialr img {
+  margin-right: 12px;
+}

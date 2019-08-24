@@ -1,0 +1,196 @@
+.app-home section .content-wrapper {
+  color: #161d29;
+  margin-top: 7rem;
+}
+
+.app-home section .content-wrapper h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.app-home section h4 {
+  font-size: 22px;
+}
+
+.app-home section h5 {
+  font-size: 28px;
+}
+
+.app-home section p {
+  color: #4f545e;
+  line-height: 20px;
+  margin-top: 21px;
+  font-size: 14px;
+}
+
+.app-home section p.description {
+  padding-top: 3px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4f545e;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.app-home section .content-wrapper h1 span {
+  display: block;
+}
+
+.app-home section img {
+  width: 100%;
+}
+
+.app-home section.banner {
+  background: #f5f6fa;
+}
+
+.app-home section.banner .references {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.app-home section.banner ul.references {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.app-home section.banner ul.references li {
+  list-style: none;
+  display: inline-block;
+}
+
+.app-home section.banner ul.references li img {
+  height: 40px;
+  width: auto;
+  margin-right: 35px;
+  opacity: 0.6;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.app-home section.banner ul.references li img:hover {
+  opacity: 1;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.app-home section .icon {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  background-color: #f5f6fa;
+  border-radius: 20px;
+  line-height: 65px;
+}
+
+.app-home section div.description {
+  float: left;
+  width: calc(100% - 80px);
+  padding-top: 2px;
+  text-align: left;
+}
+
+.app-home section .content-features .icon i {
+  padding-left: 19px;
+  display: inline-block;
+  vertical-align: initial;
+  font-size: 22px;
+  color: #fd022f;
+}
+
+.app-home section.training {
+  background: linear-gradient(to bottom, #f5f6fa, #fff);
+}
+
+.app-home section.training .row {
+  display: flex;
+  align-items: center;
+}
+
+.app-home section.training .row.first,
+.app-home section.training .row:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.app-home .section-border .bottom-convex-white {
+  display: block;
+  background: #f5f6fa;
+}
+
+.app-home .section-border.reverse .bottom-concave-white {
+  display: block;
+  background: #f5f6fa;
+}
+
+.app-home .section-border.reverse .bottom-concave-white g {
+  fill: #fff;
+}
+
+.app-home section .all-trainings {
+  text-align: center;
+}
+
+.app-home section.training a i {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+.app-home section .list-features {
+  margin-top: 50px;
+}
+// Carousel
+
+.carousel {
+  position: relative;
+  background: #f5f6fa;
+  height: 400px;
+
+  img {
+    width: 100px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 100%;
+    padding-top: 30px;
+  }
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  top: 120px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+
+  h3 {
+    color: black;
+  }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  color: black;
+}

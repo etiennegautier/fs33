@@ -1,0 +1,46 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.router-container {
+  padding: 60px 0px 0px 0px;
+}
+
+a, btn-link {
+  color: #fd022f;
+}
+
+a:hover, btn-link:hover {
+  color: #c61e3c;
+  text-decoration: none;
+}
+
+.content-features {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #013652;
+  border-color: #013652;
+}
+
+.btn {
+  font-size: 15px;
+  height: 50px;
+}
